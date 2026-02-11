@@ -34,7 +34,7 @@ createFloatingHearts();
 
 playBtn.addEventListener('click', () => {
     bgMusic.play().catch(() => {});
-    bgMusic.volume = 0.2;
+    bgMusic.volume = 0.6;
     scenes.s1.classList.remove('active');
     scenes.s2.classList.add('active');
     initPuzzle();
