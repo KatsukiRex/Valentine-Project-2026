@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ของขวัญ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kanit:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-hearts" id="heartBg"></div>
+
+    <audio id="bgMusic" loop>
+        <source src="/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="scene1" class="scene active">
+        <div class="glass-card">
+            <h1>Happy Valentine's Day</h1>
+            
+            <div class="flower-container">
+                <img src="/flowers.png" alt="Flowers" class="flower-img">
+            </div>
+
+            <p>วาเลนไทน์ปีนี้มีอะไรจะบอก... <br>พร้อมจะเปิดดูหรือยังคะ?</p>
+            <button id="playBtn" class="main-btn">กดเพื่อเริ่มเลย! 🎵</button>
+        </div>
+    </div>
+
+    <div id="scene2" class="scene">
+        <div class="glass-card">
+            <h2 class="cute-title">ต่อจิ๊กซอว์ความทรงจำ</h2>
+            <div id="puzzle-slots"></div>
+            <div id="pieces-container"></div>
+            <button id="continueBtn" class="main-btn" style="display: none;">ต่อเสร็จแล้ว เย้!</button>
+        </div>
+    </div>
+
+    <div id="scene3" class="scene">
+        <div class="glass-card">
+            <div class="final-photo-frame">
+                <img id="finalPhoto" src="" alt="Our Memory" class="final-image">
+            </div>
+            <div class="note-content">
+                <p>ของขวัญที่ให้ปีนี้ไม่รู้เธอจะชอบมั้ยนะ ด้วยความที่เค้าจัดการอะไรได้ไม่ดีด้วยแหละ เลยออกมาเป็นแบบนี้ ขอโทษนะ แต่ว่าอยากให้เธอรุ้นะ ว่าเค้ารักเธอมากม้ากกกม๊ากกก! ตั้งใจว่าอยากให้เธอยิ้มเยอะๆในวันพิเศษ แต่ไม่รู็จะถูกใจมั้ยนะ แฮะๆ และก็ ขอบคุณที่เข้ามาเป็นเรื่องราวดีๆ ในทุกวันนะคะ เค้ารักเธอที่สุดเลย! สัญญาว่าจะดูแลเธอแบบนี้ไปนานๆ รักนะคะ สุขสันต์วันวาเลนไทน์ค่ะ</p>
+                <p class="signature">- จากเค้าเอง -</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
