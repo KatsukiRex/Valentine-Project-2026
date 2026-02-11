@@ -1,6 +1,6 @@
 /** 🌙 Lunar's Ultimate Valentine Jigsaw Script */
 
-const coupleImageUrl = '/image.png'; // ใส่ URL รูปคู่ของคุณตรงนี้
+const coupleImageUrl = 'image.png'; // ใส่ URL รูปคู่ของคุณตรงนี้
 const puzzleRows = 3;
 const puzzleCols = 3;
 const totalPieces = puzzleRows * puzzleCols;
